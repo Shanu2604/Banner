@@ -1,0 +1,39 @@
+.canvas{
+    position:absolute;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    background: whitesmoke;
+    border: 1px solid lawngreen;
+    width: 880px;
+    height: 1920px;
+}
+
+.container {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+.card{
+    width: 220px;
+    background: yellowgreen;
+    border: 1px rebeccapurple;
+}
+
+.cardsw{
+    display: block;
+    width: 305px;
+    background: rgb(249, 246, 246);
+    border: 1px solid rgb(153, 51, 51);
+    text-align: center;
+}
+.cardsw .ij{
+    margin: 10px 10px 10px;
+    display: block;
+    border: 1px solid black;
+
+}
